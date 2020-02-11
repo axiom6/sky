@@ -1,0 +1,102 @@
+{
+  "M": { "dir":"img/scenic/", "pics":[
+    { "src":"SC-DownRiver.jpg",        "name":"Down River",       "p":"Down River"       },
+
+    { "src":"SC-Patio001.jpg",         "name":"Patio",            "p":"Patio"            },
+
+    { "src":"SC-RiverWalk-East.jpg",   "name":"River Walk East",  "p":"River Walk East"  },
+
+    { "src":"SC-RiverWithLongs.jpg",   "name":"River With Longs", "p":"River With Longs" },
+
+    { "src":"SLC-BigFish001.jpg",      "name":"Big Fish",         "p":"Big Fish"         },
+
+    { "src":"SLC-ElkInYard.jpg",       "name":"Elk In Yard",      "p":"Elk In Yard"      },
+
+    { "src":"SLC-ElkWithRedChair.jpg", "name":"Elk Red Chair",    "p":"Elk Red Chair"    },
+
+    { "src":"SLC-RiverWalk.jpg",       "name":"River Walk",       "p":"River Walk"       } ] },
+
+  "1": { "dir":"../img/r1/", "pics":[
+    { "src":"SL-Cabin001.jpg", "name":"Bed",     "p":"Bed and Living Room"        } ] },
+
+  "2": { "dir":"../img/r2/", "pics":[
+    { "src":"SL-4044-300.jpg", "name":"Bedroom", "p":"Serta Perfect Sleeper queen bed, double and single sofabeds" },
+
+    { "src":"SL-4046-300.jpg", "name":"Spa",     "p":"Snuggle into cozy cabin in your luxurious mountain spa" },
+
+    { "src":"SL-4048-300.jpg", "name":"Kitchen", "p":"Full electric kitchen. Moose china and pine cone shelves."   },
+
+    { "src":"SL-4050-300.jpg", "name":"Dining",  "p":"Dining Area"   } ] },
+
+  "3": { "dir":"../img/r3/", "pics":[
+    { "src":"SL-0003-300.jpg", "name":"Front View",     "p":"Down River"                 },
+
+    { "src":"SL-1002-300.jpg", "name":"Living Room",    "p":"Living Room with Fireplace" },
+
+    { "src":"SL-1003-300.jpg", "name":"Spa",            "p":"Full Size Spa"              },
+
+    { "src":"SL-1004-300.jpg", "name":"Kitchen",        "p":"Kitchen with Dining Area"   },
+
+    { "src":"SL-1006-300.jpg", "name":"First Floor",    "p":"First Floor from Kitchen"   },
+
+    { "src":"SL-1008-300.jpg", "name":"First Bedroom",  "p":"First Bedroom"              },
+
+    { "src":"SL-1012-300.jpg", "name":"Second Bedroom", "p":"Second Bedroom"             },
+
+    { "src":"SL-1014-300.jpg", "name":"Living Room",    "p":"Second Floor Living Room"   },
+
+    { "src":"SL-1016-300.jpg", "name":"Front Balcony",  "p":"Front Balcony"              },
+
+    { "src":"SL-1017-300.jpg", "name":"Back Patio",     "p":"Back Patio"                 } ] },
+
+  "4": { "dir":"../img/r4/", "pics":[
+    { "src":"SL-3012-400.jpg", "name":"Fireplace", "p":"elax w/fire and color cable TV in bed or sofa"  },
+
+    { "src":"SL-3008-300.jpg", "name":"Bedroom",   "p":"Serta Perfect Sleeper queen bed and trundle sofabed" },
+
+    { "src":"SL-3010-300.jpg", "name":"Kitchen",   "p":"All electric kitchen."    }  ] },
+
+  "5": { "dir":"../img/r5/", "pics":[
+    { "src":"SL-Unit5LRoom001.jpg",      "name":"Room Views",   "p":"Fabulous view of river & mountain"    },
+
+    { "src":"SL-Unit5LivingRoom003.jpg", "name":"Living Room",  "p":"Spacious Windows" },
+
+    { "src":"SC-Unit5View003.jpg",       "name":"Window",       "p":"Close to Natures" }  ] },
+
+  "6": { "dir":"../img/r6/", "pics":[
+    { "src":"SC-Unit6LivingRoom.jpg",    "name":"Living Room",   "p":"Perfect for Large Groups" },
+
+    { "src":"SC-Unit6DiningRoom001.jpg", "name":"Dining Kitchen","p":"Huge kitchen - can be extended to seat 16 at once!" },
+
+    { "src":"SC-Unit6BedRoom2001.jpg",   "name":"Bedroom",       "p":"Serta Perfect Sleeper, queen-size bed and single in each bedroom"  } ] },
+
+  "7": { "dir":"../img/r7/", "pics":[
+    { "src":"SC-Unit7SpaAndFireplace.jpg", "name":"Spa with Fireplace", "p":"Relax in luxurious spa in front of a crackling fire"  },
+
+    { "src":"SC-Unit7BedRoom001.jpg",      "name":"Bedroom",            "p":"Serta Perfect Sleeper queen bed under chili pepper fan." },
+
+    { "src":"SC-Unit7LivingRoom.jpg",      "name":"Living and Kitchen", "p":"Full electric kitchen. Cozy fireplace."              },
+
+    { "src":"SC-Unit7Patio.jpg",           "name":"Patio",              "p":"Enjoy private deck with dappled sunlight."   } ] },
+
+  "8": { "dir":"../img/r8/", "pics":[
+    { "src":"SC-Unit8001.jpg", "name":"Living, Bedroom Kitchen", "p":"Serta queen bed and loveseat sleeper." } ] },
+  "N": { "dir":"../img/rn/", "pics":[
+    { "src":"SL-2003-300x200.jpg", "name":"Secluded Cabin", "p":"500 sq.ft. cabin bordering Rocky Mountain National Park."  },
+
+    { "src":"SL-2004-300x200.jpg", "name":"Living Room",    "p":"Color-cable TV and queen sofabed." },
+
+    { "src":"SL-2005-300x200.jpg", "name":"Kitchen",        "p":"Full electric kitchen."              },
+
+    { "src":"SL-2006-300x200.jpg", "name":"Bedroom",        "p":"Large bedroom with Serta Perfect Sleeper queen bed"   } ] },
+
+  "S": { "dir":"../img/rs/", "pics":[
+    { "src":"SL-2001-300x200.jpg", "name":"Secluded Cabin", "p":"400 sq.ft. cabin bordering Rocky Mountain National Park."  },
+
+    { "src":"SL-2013-300x200.jpg", "name":"Living Room",     "p":"All the comforts of home!"   },
+
+    { "src":"SL-2014-300x200.jpg", "name":"Kitchen",        "p":"Full electric kitchen."              },
+
+    { "src":"SL-2008-300x200.jpg", "name":"Bedroom",        "p":"Large bedroom with Serta Perfect Sleeper queen bed" }
+  ] }
+}

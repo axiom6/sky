@@ -1,0 +1,7 @@
+Deposit is 50% of total reservation.
+There will be a deposit refund with a 50-day cancellation notice, less a $50 fee.
+Less than 50-day notice, deposit is forfeited.
+Short term reservations have a 3-day cancellation deadline.
+
+Project Console: https://console.firebase.google.com/project/skyline-fed2b/overview
+Hosting URL: https://skyline-fed2b.firebaseapp.com

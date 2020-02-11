@@ -1,0 +1,853 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>lightGallery: thumbnails</title>
+  <meta name="description"
+    content="lightGallery lets you to create animated thumbnails for your gallery with the help of thumbnail plugin.">
+  <link href="../static/css/main.css" rel="stylesheet">
+  <link href="../static/css/justifiedGallery.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css">
+  <link href="../lightgallery/css/lightgallery.css" rel="stylesheet">
+  <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+  <link rel="icon" href="../favicon.ico" type="image/x-icon">
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=sachinchoolur.github.io"
+    as="script">
+  <script src="https://pagead2.googlesyndication.com/pub-config/r20160913/ca-pub-2888290830590449.js"></script>
+  <script type="text/javascript"
+    src="https://adservice.google.com/adsid/integrator.js?domain=sachinchoolur.github.io"></script>
+  <link rel="prefetch" href="https://securepubads.g.doubleclick.net/static/3p_cookie.html">
+</head>
+<body class="demos lg-on">
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+  your browser</a> to improve your experience.</p>
+<![endif]-->
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+        aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://sachinchoolur.github.io/lightgallery.js/">lg</a>
+    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="../">Home<span class="border"></span></a></li>
+        <li><a href="../docs/">Docs<span class="border"></span></a></li>
+        <li><a href="../docs/license.html">License<span class="border"></span></a></li>
+        <li class="active"><a href="../demos/">Demos<span class="border"></span></a></li>
+        <li><a target="_blank" href="https://github.com/sachinchoolur/lightgallery.js">Github<span
+          class="border"></span></a></li>
+        <li><a target="_blank" href="http://sachinchoolur.github.io/lightGallery/"
+          onclick="ga('send', 'event', 'lg', 'lg');">jQuery lightGallery<span class="border"></span></a></li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+<section class="section pdb0">
+  <div class="container-fluid">
+    <div class="section-header has-desc mrb50">
+      <h1 class="page-header mrb15">Gallery with animated thumbnails</h1>
+      <p>Lightgallery allows you to create animated thumbnails for your gallery with the help of thumbnail plugin. It
+        supports touch swipe navigation on touchscreen devices as well as mouse drag for desktops. It also allows users
+        to navigate between thumbnails via swipe of their fingers or mouse drag. </p>
+    </div>
+    <div class="demo-gallery mrb50">
+      <div id="aniimated-thumbnials" class="list-unstyled justified-gallery" style="height: 520px;" lg-uid="lg0"
+        lg-event-uid="&amp;182&amp;223&amp;233&amp;239&amp;240&amp;247&amp;271&amp;272&amp;273&amp;274&amp;275&amp;276&amp;277">
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/1.jpg" data-sub-html="sdsdsd"
+          style="width: 187px; height: 126.144px; top: 6px; left: 6px; opacity: 1;" lg-event-uid="&amp;1">
+          <img class="img-responsive" src="../static/img/thumb-1.jpg"
+            style="width: 187px; height: 127px; margin-left: -93.5px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/2.jpg" style="width: 187px; height: 126.144px; top: 6px; left: 194px; opacity: 1;"
+          lg-event-uid="&amp;2">
+
+          <img class="img-responsive" src="../static/img/thumb-2.jpg"
+            style="width: 187px; height: 127px; margin-left: -93.5px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/3.jpg" style="width: 187px; height: 126.144px; top: 6px; left: 382px; opacity: 1;"
+          lg-event-uid="&amp;3">
+
+          <img class="img-responsive" src="../static/img/thumb-3.jpg"
+            style="width: 187px; height: 127px; margin-left: -93.5px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/4.jpg" style="width: 187px; height: 126.144px; top: 6px; left: 570px; opacity: 1;"
+          lg-event-uid="&amp;4">
+
+          <img class="img-responsive" src="../static/img/thumb-4.jpg"
+            style="width: 187px; height: 127px; margin-left: -93.5px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/5.jpg" data-sub-html="sdsdsd"
+          style="width: 186px; height: 126.144px; top: 6px; left: 758px; opacity: 1;" lg-event-uid="&amp;5">
+
+          <img class="img-responsive" src="../static/img/thumb-5.jpg"
+            style="width: 186px; height: 127px; margin-left: -93px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/6.jpg" style="width: 187px; height: 126.144px; top: 133.144px; left: 6px; opacity: 1;"
+          lg-event-uid="&amp;6">
+
+          <img class="img-responsive" src="../static/img/thumb-6.jpg"
+            style="width: 187px; height: 127px; margin-left: -93.5px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/7.jpg" style="width: 187px; height: 126.144px; top: 133.144px; left: 194px; opacity: 1;"
+          lg-event-uid="&amp;7">
+
+          <img class="img-responsive" src="../static/img/thumb-7.jpg"
+            style="width: 187px; height: 127px; margin-left: -93.5px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/8.jpg" style="width: 187px; height: 126.144px; top: 133.144px; left: 382px; opacity: 1;"
+          lg-event-uid="&amp;8">
+
+          <img class="img-responsive" src="../static/img/thumb-8.jpg"
+            style="width: 187px; height: 127px; margin-left: -93.5px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/9.jpg" data-sub-html="sdsdsd"
+          style="width: 187px; height: 126.144px; top: 133.144px; left: 570px; opacity: 1;" lg-event-uid="&amp;9">
+
+          <img class="img-responsive" src="../static/img/thumb-9.jpg"
+            style="width: 187px; height: 127px; margin-left: -93.5px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/10.jpg" style="width: 186px; height: 126.144px; top: 133.144px; left: 758px; opacity: 1;"
+          lg-event-uid="&amp;10">
+
+          <img class="img-responsive" src="../static/img/thumb-10.jpg"
+            style="width: 186px; height: 127px; margin-left: -93px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/11.jpg" data-sub-html="sdsdsd"
+          style="width: 187px; height: 126.144px; top: 260.287px; left: 6px; opacity: 1;" lg-event-uid="&amp;11">
+
+          <img class="img-responsive" src="../static/img/thumb-11.jpg"
+            style="width: 187px; height: 127px; margin-left: -93.5px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/12.jpg" style="width: 187px; height: 126.144px; top: 260.287px; left: 194px; opacity: 1;"
+          lg-event-uid="&amp;12">
+
+          <img class="img-responsive" src="../static/img/thumb-12.jpg"
+            style="width: 187px; height: 127px; margin-left: -93.5px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/13.jpg" style="width: 187px; height: 126.144px; top: 260.287px; left: 382px; opacity: 1;"
+          lg-event-uid="&amp;13">
+
+          <img class="img-responsive" src="../static/img/thumb-13.jpg"
+            style="width: 187px; height: 127px; margin-left: -93.5px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/14.jpg" style="width: 187px; height: 126.144px; top: 260.287px; left: 570px; opacity: 1;"
+          lg-event-uid="&amp;14">
+
+          <img class="img-responsive" src="../static/img/thumb-14.jpg"
+            style="width: 187px; height: 127px; margin-left: -93.5px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/15.jpg" data-sub-html="sdsdsd"
+          style="width: 186px; height: 126.144px; top: 260.287px; left: 758px; opacity: 1;" lg-event-uid="&amp;15">
+
+          <img class="img-responsive" src="../static/img/thumb-15.jpg"
+            style="width: 186px; height: 127px; margin-left: -93px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/16.jpg" style="width: 187px; height: 126.144px; top: 387.431px; left: 6px; opacity: 1;"
+          lg-event-uid="&amp;16">
+
+          <img class="img-responsive" src="../static/img/thumb-16.jpg"
+            style="width: 187px; height: 127px; margin-left: -93.5px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/17.jpg" style="width: 187px; height: 126.144px; top: 387.431px; left: 194px; opacity: 1;"
+          lg-event-uid="&amp;17">
+
+          <img class="img-responsive" src="../static/img/thumb-17.jpg"
+            style="width: 187px; height: 127px; margin-left: -93.5px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/18.jpg" style="width: 187px; height: 126.144px; top: 387.431px; left: 382px; opacity: 1;"
+          lg-event-uid="&amp;18">
+
+          <img class="img-responsive" src="../static/img/thumb-18.jpg"
+            style="width: 187px; height: 127px; margin-left: -93.5px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/19.jpg" data-sub-html="sdsdsd"
+          style="width: 187px; height: 126.144px; top: 387.431px; left: 570px; opacity: 1;" lg-event-uid="&amp;19">
+
+          <img class="img-responsive" src="../static/img/thumb-19.jpg"
+            style="width: 187px; height: 127px; margin-left: -93.5px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/20.jpg" style="width: 186px; height: 126.144px; top: 387.431px; left: 758px; opacity: 1;"
+          lg-event-uid="&amp;20">
+
+          <img class="img-responsive" src="../static/img/thumb-20.jpg"
+            style="width: 186px; height: 127px; margin-left: -93px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+      </div>
+    </div>
+    <div class="docs-ad">
+      <div class="lg-ad light">
+        <script async="" src="https://www.google-analytics.com/analytics.js"></script>
+        <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- lg1.2demo -->
+        <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px"
+          data-ad-client="ca-pub-2888290830590449" data-ad-slot="5565545012" data-adsbygoogle-status="done">
+          <ins id="aswift_0_expand"
+            style="display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:728px;background-color:transparent;">
+            <ins id="aswift_0_anchor"
+              style="display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:728px;background-color:transparent;">
+              <iframe marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no"
+                allowfullscreen="true"
+                onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}"
+                id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;width:728px;height:90px;"
+                width="728" height="90" frameborder="0"></iframe>
+            </ins>
+          </ins>
+        </ins>
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+    </div>
+    <div class="bs-callout bs-callout-danger mrb50">
+      <h4>Plugin dependency<a class="anchorjs-link"><span class="anchorjs-icon"></span></a></h4>
+      <p>Lightgallery require the thumbnail plugin to be included in your document.</p>
+    </div>
+    <div class="code-demo mrb50">
+      <div class="section-header mrb15">
+        <h4 class="section-title">HTML structure</h4>
+      </div>
+      <div class="sample-code html">
+        <pre class="prettyprint linenums lang-html"><ol class="linenums">
+          <li class="L0"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">id</span><span
+            class="pun">=</span><span class="atv">"aniimated-thumbnials"</span><span class="tag">&gt;</span></li>
+          <li class="L1"><span class="pln">  </span><span class="tag">&lt;a</span><span class="pln"> </span><span
+            class="atn">href</span><span class="pun">=</span><span class="atv">"img/img1.jpg"</span><span class="tag">&gt;</span>
+          </li>
+          <li class="L2"><span class="pln">    </span><span class="tag">&lt;img</span><span class="pln"> </span><span
+            class="atn">src</span><span class="pun">=</span><span class="atv">"img/thumb1.jpg"</span><span
+            class="pln"> </span><span class="tag">/&gt;</span></li>
+          <li class="L3"><span class="pln">  </span><span class="tag">&lt;/a&gt;</span></li>
+          <li class="L4"><span class="pln">  </span><span class="tag">&lt;a</span><span class="pln"> </span><span
+            class="atn">href</span><span class="pun">=</span><span class="atv">"img/img2.jpg"</span><span class="tag">&gt;</span>
+          </li>
+          <li class="L5"><span class="pln">    </span><span class="tag">&lt;img</span><span class="pln"> </span><span
+            class="atn">src</span><span class="pun">=</span><span class="atv">"img/thumb2.jpg"</span><span
+            class="pln"> </span><span class="tag">/&gt;</span></li>
+          <li class="L6"><span class="pln">  </span><span class="tag">&lt;/a&gt;</span></li>
+          <li class="L7"><span class="pln">  ...</span></li>
+          <li class="L8"><span class="tag">&lt;/div&gt;</span></li>
+        </ol></pre>
+      </div>
+    </div>
+    <div class="code-demo mrb50">
+      <div class="section-header mrb15">
+        <h4 class="section-title">Javascript</h4>
+      </div>
+      <div class="sample-code html">
+        <pre class="prettyprint linenums lang-js"><ol class="linenums">
+          <li class="L0"><span class="pln">lightGallery</span><span class="pun">(</span><span
+            class="pln">document</span><span class="pun">.</span><span class="pln">getElementById</span><span
+            class="pun">(</span><span class="str">'aniimated-thumbnials'</span><span class="pun">),</span><span
+            class="pln"> </span><span class="pun">{</span></li>
+          <li class="L1"><span class="pln">    thumbnail</span><span class="pun">:</span><span class="kwd">true</span>
+          </li>
+          <li class="L2"><span class="pun">});</span><span class="pln"> </span></li>
+        </ol></pre>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section highlight pdb0">
+  <div class="container-fluid">
+    <h2 class="anchor-title mrb35" id="normal-thumb">
+      <a href="#normal-thumb">Gallery without animated thumbnails</a>
+      <span class="border"></span>
+    </h2>
+    <div class="demo-gallery mrb50">
+      <div id="thumbnials-without-animation" class="list-unstyled justified-gallery" style="height: 520px;"
+        lg-uid="lg1">
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/1.jpg" data-sub-html="sdsdsd"
+          style="width: 187px; height: 126.144px; top: 6px; left: 6px; opacity: 1;" lg-event-uid="&amp;21">
+          <img class="img-responsive" src="../static/img/thumb-1.jpg"
+            style="width: 187px; height: 127px; margin-left: -93.5px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/2.jpg" style="width: 187px; height: 126.144px; top: 6px; left: 194px; opacity: 1;"
+          lg-event-uid="&amp;22">
+
+          <img class="img-responsive" src="../static/img/thumb-2.jpg"
+            style="width: 187px; height: 127px; margin-left: -93.5px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/3.jpg" style="width: 187px; height: 126.144px; top: 6px; left: 382px; opacity: 1;"
+          lg-event-uid="&amp;23">
+
+          <img class="img-responsive" src="../static/img/thumb-3.jpg"
+            style="width: 187px; height: 127px; margin-left: -93.5px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/4.jpg" style="width: 187px; height: 126.144px; top: 6px; left: 570px; opacity: 1;"
+          lg-event-uid="&amp;24">
+
+          <img class="img-responsive" src="../static/img/thumb-4.jpg"
+            style="width: 187px; height: 127px; margin-left: -93.5px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/5.jpg" data-sub-html="sdsdsd"
+          style="width: 186px; height: 126.144px; top: 6px; left: 758px; opacity: 1;" lg-event-uid="&amp;25">
+
+          <img class="img-responsive" src="../static/img/thumb-5.jpg"
+            style="width: 186px; height: 127px; margin-left: -93px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/6.jpg" style="width: 187px; height: 126.144px; top: 133.144px; left: 6px; opacity: 1;"
+          lg-event-uid="&amp;26">
+
+          <img class="img-responsive" src="../static/img/thumb-6.jpg"
+            style="width: 187px; height: 127px; margin-left: -93.5px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/7.jpg" style="width: 187px; height: 126.144px; top: 133.144px; left: 194px; opacity: 1;"
+          lg-event-uid="&amp;27">
+
+          <img class="img-responsive" src="../static/img/thumb-7.jpg"
+            style="width: 187px; height: 127px; margin-left: -93.5px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/8.jpg" style="width: 187px; height: 126.144px; top: 133.144px; left: 382px; opacity: 1;"
+          lg-event-uid="&amp;28">
+
+          <img class="img-responsive" src="../static/img/thumb-8.jpg"
+            style="width: 187px; height: 127px; margin-left: -93.5px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/9.jpg" data-sub-html="sdsdsd"
+          style="width: 187px; height: 126.144px; top: 133.144px; left: 570px; opacity: 1;" lg-event-uid="&amp;29">
+
+          <img class="img-responsive" src="../static/img/thumb-9.jpg"
+            style="width: 187px; height: 127px; margin-left: -93.5px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/10.jpg" style="width: 186px; height: 126.144px; top: 133.144px; left: 758px; opacity: 1;"
+          lg-event-uid="&amp;30">
+
+          <img class="img-responsive" src="../static/img/thumb-10.jpg"
+            style="width: 186px; height: 127px; margin-left: -93px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/11.jpg" data-sub-html="sdsdsd"
+          style="width: 187px; height: 126.144px; top: 260.287px; left: 6px; opacity: 1;" lg-event-uid="&amp;31">
+
+          <img class="img-responsive" src="../static/img/thumb-11.jpg"
+            style="width: 187px; height: 127px; margin-left: -93.5px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/12.jpg" style="width: 187px; height: 126.144px; top: 260.287px; left: 194px; opacity: 1;"
+          lg-event-uid="&amp;32">
+
+          <img class="img-responsive" src="../static/img/thumb-12.jpg"
+            style="width: 187px; height: 127px; margin-left: -93.5px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/13.jpg" style="width: 187px; height: 126.144px; top: 260.287px; left: 382px; opacity: 1;"
+          lg-event-uid="&amp;33">
+
+          <img class="img-responsive" src="../static/img/thumb-13.jpg"
+            style="width: 187px; height: 127px; margin-left: -93.5px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/14.jpg" style="width: 187px; height: 126.144px; top: 260.287px; left: 570px; opacity: 1;"
+          lg-event-uid="&amp;34">
+
+          <img class="img-responsive" src="../static/img/thumb-14.jpg"
+            style="width: 187px; height: 127px; margin-left: -93.5px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/15.jpg" data-sub-html="sdsdsd"
+          style="width: 186px; height: 126.144px; top: 260.287px; left: 758px; opacity: 1;" lg-event-uid="&amp;35">
+
+          <img class="img-responsive" src="../static/img/thumb-15.jpg"
+            style="width: 186px; height: 127px; margin-left: -93px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/16.jpg" style="width: 187px; height: 126.144px; top: 387.431px; left: 6px; opacity: 1;"
+          lg-event-uid="&amp;36">
+
+          <img class="img-responsive" src="../static/img/thumb-16.jpg"
+            style="width: 187px; height: 127px; margin-left: -93.5px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/17.jpg" style="width: 187px; height: 126.144px; top: 387.431px; left: 194px; opacity: 1;"
+          lg-event-uid="&amp;37">
+
+          <img class="img-responsive" src="../static/img/thumb-17.jpg"
+            style="width: 187px; height: 127px; margin-left: -93.5px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/18.jpg" style="width: 187px; height: 126.144px; top: 387.431px; left: 382px; opacity: 1;"
+          lg-event-uid="&amp;38">
+
+          <img class="img-responsive" src="../static/img/thumb-18.jpg"
+            style="width: 187px; height: 127px; margin-left: -93.5px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/19.jpg" data-sub-html="sdsdsd"
+          style="width: 187px; height: 126.144px; top: 387.431px; left: 570px; opacity: 1;" lg-event-uid="&amp;39">
+
+          <img class="img-responsive" src="../static/img/thumb-19.jpg"
+            style="width: 187px; height: 127px; margin-left: -93.5px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+        <a data-pinterest-text="Pin it" data-tweet-text="share it on twitter" class="jg-entry"
+          href="../static/img/20.jpg" style="width: 186px; height: 126.144px; top: 387.431px; left: 758px; opacity: 1;"
+          lg-event-uid="&amp;40">
+
+          <img class="img-responsive" src="../static/img/thumb-20.jpg"
+            style="width: 186px; height: 127px; margin-left: -93px; margin-top: -63.5px;">
+          <div class="demo-gallery-poster">
+            <img src="../static/img/zoom.png">
+          </div>
+
+        </a>
+      </div>
+    </div>
+    <div class="bs-callout bs-callout-danger mrb50">
+      <h4>Plugin dependency<a class="anchorjs-link"><span class="anchorjs-icon"></span></a></h4>
+      <p>Lightgallery require the thumbnail plugin to be included in your document.</p>
+    </div>
+    <div class="code-demo mrb50">
+      <div class="section-header mrb15">
+        <h4 class="section-title">HTML structure</h4>
+      </div>
+      <div class="sample-code html">
+        <pre class="prettyprint linenums lang-html"><ol class="linenums">
+          <li class="L0"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">id</span><span
+            class="pun">=</span><span class="atv">"animated-thumbnials"</span><span class="tag">&gt;</span></li>
+          <li class="L1"><span class="pln">  </span><span class="tag">&lt;a</span><span class="pln"> </span><span
+            class="atn">href</span><span class="pun">=</span><span class="atv">"img/img1.jpg"</span><span class="tag">&gt;</span>
+          </li>
+          <li class="L2"><span class="pln">    </span><span class="tag">&lt;img</span><span class="pln"> </span><span
+            class="atn">src</span><span class="pun">=</span><span class="atv">"img/thumb1.jpg"</span><span
+            class="pln"> </span><span class="tag">/&gt;</span></li>
+          <li class="L3"><span class="pln">  </span><span class="tag">&lt;/a&gt;</span></li>
+          <li class="L4"><span class="pln">  </span><span class="tag">&lt;a</span><span class="pln"> </span><span
+            class="atn">href</span><span class="pun">=</span><span class="atv">"img/img2.jpg"</span><span class="tag">&gt;</span>
+          </li>
+          <li class="L5"><span class="pln">    </span><span class="tag">&lt;img</span><span class="pln"> </span><span
+            class="atn">src</span><span class="pun">=</span><span class="atv">"img/thumb2.jpg"</span><span
+            class="pln"> </span><span class="tag">/&gt;</span></li>
+          <li class="L6"><span class="pln">  </span><span class="tag">&lt;/a&gt;</span></li>
+          <li class="L7"><span class="pln">  ...</span></li>
+          <li class="L8"><span class="tag">&lt;/div&gt;</span></li>
+        </ol></pre>
+      </div>
+    </div>
+    <div class="code-demo mrb50">
+      <div class="section-header mrb15">
+        <h4 class="section-title">Javascript</h4>
+      </div>
+      <div class="sample-code html">
+        <pre class="prettyprint linenums lang-js"><ol class="linenums">
+          <li class="L0"><span class="pln">lightGallery</span><span class="pun">(</span><span
+            class="pln">document</span><span class="pun">.</span><span class="pln">getElementById</span><span
+            class="pun">(</span><span class="str">'animated-thumbnials'</span><span class="pun">),</span><span
+            class="pln"> </span><span class="pun">{</span></li>
+          <li class="L1"><span class="pln">    thumbnail</span><span class="pun">:</span><span
+            class="kwd">true</span><span class="pun">,</span></li>
+          <li class="L2"><span class="pln">    animateThumb</span><span class="pun">:</span><span
+            class="pln"> </span><span class="kwd">false</span><span class="pun">,</span></li>
+          <li class="L3"><span class="pln">    showThumbByDefault</span><span class="pun">:</span><span
+            class="pln"> </span><span class="kwd">false</span></li>
+          <li class="L4"><span class="pun">});</span><span class="pln"> </span></li>
+        </ol></pre>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="demo-links section">
+  <div class="container-fluid">
+    <h2 id="more-demo" class="anchor-title mrb50">
+      <a href="#more-demo">More demos</a>
+      <span class="border"></span>
+    </h2>
+    <div class="row">
+      <div class="col-xs-6 col-sm-4 col-md-3">
+        <a class="btn btn-primary btn-lg" href="index.html">Thumbnails</a>
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-3">
+        <a class="btn btn-primary btn-lg" href="videos.html">Youtube/Vimeo Videos</a>
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-3">
+        <a class="btn btn-primary btn-lg" href="html5-videos.html">HTML5 Videos</a>
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-3">
+        <a class="btn btn-primary btn-lg" href="transitions.html">Transitions</a>
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-3">
+        <a class="btn btn-success btn-lg" href="dynamic.html">Dynamic</a>
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-3">
+        <a class="btn btn-success btn-lg" href="events.html">Events</a>
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-3">
+        <a class="btn btn-success btn-lg" href="methods.html">Methods</a>
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-3">
+        <a class="btn btn-success btn-lg" href="iframe.html">Iframe</a>
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-3">
+        <a class="btn btn-danger btn-lg" href="captions.html">Captions</a>
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-3">
+        <a class="btn btn-danger btn-lg" href="responsive.html">Responsive</a>
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-3">
+        <a class="btn btn-danger btn-lg" href="fixed-size.html">fixed Size</a>
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-3">
+        <a class="btn btn-danger btn-lg" href="html-markup.html">Html Markup</a>
+      </div>
+
+      <div class="col-xs-6 col-sm-4 col-md-3">
+        <a class="btn btn-danger btn-lg" href="comment-box.html">Comment box</a>
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-3">
+        <a class="btn btn-danger btn-lg" href="easing.html">Easing</a>
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-3">
+        <a class="btn btn-danger btn-lg" href="hash.html">Hash plugin</a>
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-3">
+        <a class="btn btn-danger btn-lg" href="share.html">Share</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <a target="_blank" href="https://twitter.com/sachinchoolur"><img src="../static/img/social/twitter.png"></a>
+  <a target="_blank" href="https://in.linkedin.com/in/sachinchoolur"><img src="../static/img/social/linked-in.png"></a>
+</footer>
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+  ga('create', 'UA-49767543-5', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="../static/js/prettify.js"></script>
+<script src="../static/js/jquery.justifiedGallery.min.js"></script>
+<script src="../static/js/transition.js"></script>
+<script src="../static/js/collapse.js"></script>
+<script src="../lightgallery/js/lightgallery.js"></script>
+<script src="../lightgallery/js/lg-thumbnail.js"></script>
+<script src="../lightgallery/js/lg-share.js"></script>
+<script src="../lightgallery/js/lg-fullscreen.js"></script>
+<script src="../lightgallery/js/lg-zoom.js"></script>
+<script src="../lightgallery/js/lg-autoplay.js"></script>
+<script src="../lightgallery/js/lg-hash.js"></script>
+<script src="../static/js/demos.js"></script>
+
+
+<div class="lg-backdrop in" style="transition-duration: 150ms;"></div>
+<div
+  class="lg-outer lg-start-zoom lg-use-css3 lg-css3 lg-slide lg-grab lg-show-after-load lg-pull-caption-up lg-has-thumb lg-can-toggle lg-use-transition-for-zoom lg-visible lg-thumb-open lg-hide-items"
+  lg-event-uid="&amp;289&amp;290&amp;291&amp;292&amp;293">
+  <div class="lg" style="width:100%; height:100%">
+    <div class="lg-inner" style="transition-timing-function: ease; transition-duration: 600ms;">
+      <div class="lg-item lg-loaded lg-current lg-complete lg-zoomable" lg-event-uid="&amp;248&amp;297">
+        <div class="lg-img-wrap" style="transform: translate3d(0px, 0px, 0px);" data-x="0" data-y="0"><img
+          class="lg-object lg-image" src="../static/img/1.jpg" lg-event-uid="&amp;279&amp;280&amp;281&amp;282&amp;283"
+          style="transform: scale3d(1, 1, 1);" data-scale="1"></div>
+      </div>
+      <div class="lg-item lg-loaded lg-complete lg-zoomable" lg-event-uid="&amp;249&amp;298">
+        <div class="lg-img-wrap"><img class="lg-object lg-image" src="../static/img/2.jpg"
+          lg-event-uid="&amp;294&amp;295&amp;296"></div>
+      </div>
+      <div class="lg-item" lg-event-uid="&amp;250&amp;299"></div>
+      <div class="lg-item" lg-event-uid="&amp;251&amp;300"></div>
+      <div class="lg-item" lg-event-uid="&amp;252&amp;301"></div>
+      <div class="lg-item" lg-event-uid="&amp;253&amp;302"></div>
+      <div class="lg-item" lg-event-uid="&amp;254&amp;303"></div>
+      <div class="lg-item" lg-event-uid="&amp;255&amp;304"></div>
+      <div class="lg-item" lg-event-uid="&amp;256&amp;305"></div>
+      <div class="lg-item" lg-event-uid="&amp;257&amp;306"></div>
+      <div class="lg-item" lg-event-uid="&amp;258&amp;307"></div>
+      <div class="lg-item" lg-event-uid="&amp;259&amp;308"></div>
+      <div class="lg-item" lg-event-uid="&amp;260&amp;309"></div>
+      <div class="lg-item" lg-event-uid="&amp;261&amp;310"></div>
+      <div class="lg-item" lg-event-uid="&amp;262&amp;311"></div>
+      <div class="lg-item" lg-event-uid="&amp;263&amp;312"></div>
+      <div class="lg-item" lg-event-uid="&amp;264&amp;313"></div>
+      <div class="lg-item" lg-event-uid="&amp;265&amp;314"></div>
+      <div class="lg-item" lg-event-uid="&amp;266&amp;315"></div>
+      <div class="lg-item" lg-event-uid="&amp;267&amp;316"></div>
+    </div>
+    <div class="lg-toolbar group"><span class="lg-close lg-icon" lg-event-uid="&amp;288"></span><a id="lg-download"
+      target="_blank" download="" class="lg-download lg-icon" href="../static/img/1.jpg"></a><span id="lg-share"
+      class="lg-icon" lg-event-uid="&amp;231"><ul class="lg-dropdown" style="position: absolute;">
+      <li><a id="lg-share-facebook" target="_blank"
+        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsachinchoolur.github.io%2Flightgallery.js%2Fdemos%2Findex.html%23lg%3D1%26slide%3D0"><span
+        class="lg-icon"></span><span class="lg-dropdown-text">Facebook</span></a></li>
+      <li><a id="lg-share-twitter" target="_blank"
+        href="https://twitter.com/intent/tweet?text=share it on twitter&amp;url=https%3A%2F%2Fsachinchoolur.github.io%2Flightgallery.js%2Fdemos%2Findex.html%23lg%3D1%26slide%3D0"><span
+        class="lg-icon"></span><span class="lg-dropdown-text">Twitter</span></a></li>
+      <li><a id="lg-share-googleplus" target="_blank"
+        href="https://plus.google.com/share?url=https%3A%2F%2Fsachinchoolur.github.io%2Flightgallery.js%2Fdemos%2Findex.html%23lg%3D1%26slide%3D0"><span
+        class="lg-icon"></span><span class="lg-dropdown-text">GooglePlus</span></a></li>
+      <li><a id="lg-share-pinterest" target="_blank"
+        href="http://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fsachinchoolur.github.io%2Flightgallery.js%2Fdemos%2Findex.html%23lg%3D1%26slide%3D0&amp;media=..%2Fstatic%2Fimg%2F1.jpg&amp;description=Pin it"><span
+        class="lg-icon"></span><span class="lg-dropdown-text">Pinterest</span></a></li>
+    </ul></span><span class="lg-fullscreen lg-icon" lg-event-uid="&amp;238"></span><span id="lg-zoom-in" class="lg-icon"
+      lg-event-uid="&amp;245"></span><span id="lg-zoom-out" class="lg-icon" lg-event-uid="&amp;244"></span><span
+      id="lg-actual-size" class="lg-icon" lg-event-uid="&amp;246"></span><span class="lg-autoplay-button lg-icon"
+      lg-event-uid="&amp;270"></span>
+      <div id="lg-counter"><span id="lg-counter-current">1</span> / <span id="lg-counter-all">20</span></div>
+    </div>
+    <div class="lg-actions">
+      <div class="lg-prev lg-icon" lg-event-uid="&amp;286"></div>
+      <div class="lg-next lg-icon" lg-event-uid="&amp;287"></div>
+    </div>
+    <div class="lg-sub-html">sdsdsd</div>
+    <div class="lg-thumb-outer lg-grab" style="height: 100px;">
+      <div class="lg-thumb group"
+        style="width: 2100px; position: relative; transform: translate3d(0px, 0px, 0px); transition-duration: 600ms;"
+        lg-event-uid="&amp;226">
+        <div data-vimeo-id="" class="lg-thumb-item active" style="width:100px; margin-right: 5px"
+          lg-event-uid="&amp;183&amp;184"><img src="../static/img/thumb-1.jpg"></div>
+        <div data-vimeo-id="" class="lg-thumb-item" style="width:100px; margin-right: 5px"
+          lg-event-uid="&amp;185&amp;186"><img src="../static/img/thumb-2.jpg"></div>
+        <div data-vimeo-id="" class="lg-thumb-item" style="width:100px; margin-right: 5px"
+          lg-event-uid="&amp;187&amp;188"><img src="../static/img/thumb-3.jpg"></div>
+        <div data-vimeo-id="" class="lg-thumb-item" style="width:100px; margin-right: 5px"
+          lg-event-uid="&amp;189&amp;190"><img src="../static/img/thumb-4.jpg"></div>
+        <div data-vimeo-id="" class="lg-thumb-item" style="width:100px; margin-right: 5px"
+          lg-event-uid="&amp;191&amp;192"><img src="../static/img/thumb-5.jpg"></div>
+        <div data-vimeo-id="" class="lg-thumb-item" style="width:100px; margin-right: 5px"
+          lg-event-uid="&amp;193&amp;194"><img src="../static/img/thumb-6.jpg"></div>
+        <div data-vimeo-id="" class="lg-thumb-item" style="width:100px; margin-right: 5px"
+          lg-event-uid="&amp;195&amp;196"><img src="../static/img/thumb-7.jpg"></div>
+        <div data-vimeo-id="" class="lg-thumb-item" style="width:100px; margin-right: 5px"
+          lg-event-uid="&amp;197&amp;198"><img src="../static/img/thumb-8.jpg"></div>
+        <div data-vimeo-id="" class="lg-thumb-item" style="width:100px; margin-right: 5px"
+          lg-event-uid="&amp;199&amp;200"><img src="../static/img/thumb-9.jpg"></div>
+        <div data-vimeo-id="" class="lg-thumb-item" style="width:100px; margin-right: 5px"
+          lg-event-uid="&amp;201&amp;202"><img src="../static/img/thumb-10.jpg"></div>
+        <div data-vimeo-id="" class="lg-thumb-item" style="width:100px; margin-right: 5px"
+          lg-event-uid="&amp;203&amp;204"><img src="../static/img/thumb-11.jpg"></div>
+        <div data-vimeo-id="" class="lg-thumb-item" style="width:100px; margin-right: 5px"
+          lg-event-uid="&amp;205&amp;206"><img src="../static/img/thumb-12.jpg"></div>
+        <div data-vimeo-id="" class="lg-thumb-item" style="width:100px; margin-right: 5px"
+          lg-event-uid="&amp;207&amp;208"><img src="../static/img/thumb-13.jpg"></div>
+        <div data-vimeo-id="" class="lg-thumb-item" style="width:100px; margin-right: 5px"
+          lg-event-uid="&amp;209&amp;210"><img src="../static/img/thumb-14.jpg"></div>
+        <div data-vimeo-id="" class="lg-thumb-item" style="width:100px; margin-right: 5px"
+          lg-event-uid="&amp;211&amp;212"><img src="../static/img/thumb-15.jpg"></div>
+        <div data-vimeo-id="" class="lg-thumb-item" style="width:100px; margin-right: 5px"
+          lg-event-uid="&amp;213&amp;214"><img src="../static/img/thumb-16.jpg"></div>
+        <div data-vimeo-id="" class="lg-thumb-item" style="width:100px; margin-right: 5px"
+          lg-event-uid="&amp;215&amp;216"><img src="../static/img/thumb-17.jpg"></div>
+        <div data-vimeo-id="" class="lg-thumb-item" style="width:100px; margin-right: 5px"
+          lg-event-uid="&amp;217&amp;218"><img src="../static/img/thumb-18.jpg"></div>
+        <div data-vimeo-id="" class="lg-thumb-item" style="width:100px; margin-right: 5px"
+          lg-event-uid="&amp;219&amp;220"><img src="../static/img/thumb-19.jpg"></div>
+        <div data-vimeo-id="" class="lg-thumb-item" style="width:100px; margin-right: 5px"
+          lg-event-uid="&amp;221&amp;222"><img src="../static/img/thumb-20.jpg"></div>
+      </div>
+      <span class="lg-toggle-thumb lg-icon" lg-event-uid="&amp;229"></span></div>
+    <div id="lg-dropdown-overlay" lg-event-uid="&amp;232"></div>
+    <div class="lg-progress-bar">
+      <div class="lg-progress"></div>
+    </div>
+  </div>
+</div>
+</body>

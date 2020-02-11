@@ -1,0 +1,11 @@
+For example, my printer is set to the IP of 10.0.0.177 so I simply typed that in the address bar of Chrome and pressed enter. If you do not know your printers IP, on the printer, press Menu then goto Network> WLAN> TCP/IP> IP Address.
+
+Once you're at the web-interface, these are the settings that I changed:
+
+General Tab> Status> Automatic Refresh: On
+
+1) Network Tab> Wireless Sub-Tab> TCP/IP (Wireless)> Boot Method: STATIC
+
+2) Network Tab> Wireless Sub-Tab> TCP/IP (Wireless)> Enable APIPA: UN-CHECKED
+
+3) Network Tab> Wireless Sub-Tab> TCP/IP (Wireless)> IPv6 Sub-Menu> IPv6: Enabled

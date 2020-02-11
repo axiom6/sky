@@ -1,0 +1,100 @@
+
+:linkcss:
+include::../dir/inc/DefBook.adoc[]
+
+# [.black]#Plan#
+
+### [.black]#Important#
+* Guest
+  ** Update to Owner
+  ** Deploy Info Site
+  ** Deploy Guest
+  ** Weekend Hint
+  ** Guest Lookup Checkin with PayBalance
+  ** Confirmation EMail from Firebase
+  ** Guest content - Review
+  ** Terms and Conditions - review
+  ** UI Test amd Test Suite
+  ** Stripe Bank Account
+  ** Firebase auth and deploy
+  ** Move www.skylinecottages.com from GoDaddy
+* Upload
+  ** Improve Text Transfer
+  ** Just filter out invalids
+  ** Date stamp cancellations
+* Season
+  ** Disable
+
+### [.black]#Integrate#
+* Bookings
+  ** Enlarge and upload more photos
+  ** Review listings
+  ** Determine steps for going live
+* Owner
+  ** Group Reservation Days
+  ** Clean Up Confirmation
+  ** Guest Check In Link
+  ** Guest Update Link - Revs Form?
+  ** Fix Season Calander
+  ** Create Daily Activies
+  ** Payments Track - Tax, Deposit, OTS
+
+## [.black]#Marketing#
+* Google Search
+* Visit Estes Park
+* EstesPark.com#
+* Trips With Pets
+
+## [.black]#Guest Site Completed#
+* Input
+  ** Make Dates Easier
+  ** Collision Detection
+* Query
+  ** Make Dates Easier
+  ** Easy Printing
+* Res
+  ** Get JSON
+  ** Convert legacy status
+  ** Regenrate Days
+  ** Can table
+* Stripe Reader
+  ** Call for setup and Merchant Id
+* Fix weekend and fill in
+* Fix guest, pet and spa opt out
+* Slide.coffee ?
+* Video
+* Fixed require
+* Home Page Text and Sizing
+* Fri Sat Block and clean up Book.fillInRooms()
+* Update   reservation mine
+* Maintain reservation calendar, status
+* Continuous Resevation Clicks
+* Booking 2rd reservation
+* Change reservation
+* Package Slide.js
+* Spa Adjust
+* Limit Credit Cards
+* Reservation Instruction
+* Improve Less Styling - Contact
+* Prepopulate Forms for Test
+* Deposit and Payment Status
+* Spa opt out
+* Improve Confirm and Maybe Pay Errors
+* Improve confirm alert
+* Home buttons jQuery in Rooms
+* Contact, Map and Directions
+* Home buttons jQuery in Rooms
+* Compose and Send Confirmation EMail with confirmation #
+* Input First  Last Names, Phone Number and Confirmaton EMail
+* Move "Change Reservation" Button
+* Validation Message
+* Fix Res
+* Home Layout
+* Room Layout
+* Credit Card Form
+* Confirmation
+# Room Pages
+* Gallerys - Scenic Rooms Style Print
+
+
+

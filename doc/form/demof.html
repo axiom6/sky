@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <title>payform - JavaScript library for building credit card forms, validating inputs, and formatting numbers.</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta name="keywords" content="credit card, jquery, javascript, form, payment, pay, form, npm, bower">
+</head>
+<body>
+<div class="wrapper">
+  <section>
+
+    <div>
+          <span class="field">
+            <label for="ccnum">Card Number</label>
+            <input placeholder="---- ---- ---- ----" size="19" name="ccnum" value="" id="ccnum" type="tel">
+          </span>
+      <div><small>type: <strong id="ccnum-type">invalid</strong></small></div>
+    </div>
+
+    <div>
+          <span class="field">
+            <label for="expiry">Expiration</label>
+            <input placeholder="-- / --" size="7" name="expiry" value="" id="expiry" type="tel">
+          </span>
+
+          <span class="cvc field">
+            <label for="cvc">CVC</label>
+            <input placeholder="---" size="4" name="cvc" value="" id="cvc" type="tel">
+          </span>
+    </div>
+
+    <div>
+      <button id="submit">Validate</button>
+      <div id="result" class="emoji"></div>
+    </div>
+
+  </section>
+</div>
+
+<script src="../../js/form/payform.js"></script>
+<script src="form.js"></script>
+
+</body></html>

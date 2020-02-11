@@ -1,0 +1,34 @@
+
+== [.black]#Pricing#
+
+[horizontal]
+Trial Period::     x
+Setup Costs::      x
+Price Component::  x
+Seasonal Pricing:: x
+Cancellation::     x
+Contract::         x
+
+
+== [.black]#Book Guest#
+
+== [.black]#Book Adminstration#
+
+== [.black]#Channel (OTS) Management#
+
+[horizontal]
+Allocate Room::  x
+Book Room::      x
+Block Room::     x
+
+== [.black]#Credit Card Processing#
+
+[horizontal]
+Checkin Payment::  x
+Confirmation::     x
+Down Payment::     x
+Apply Credit::     x
+Bank Payments::    x
+
+== [.black]#About Skyline Cottages#
+

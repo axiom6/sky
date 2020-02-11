@@ -1,0 +1,33 @@
+
+@ww:800px;        // #wrapper  width
+@wh:800px;        // #wrapper  height
+@fw:@wh;          // #fullsize width
+@fh:@wh - 100px;  // #fullsize height
+@iw:@ww - 100px;  // #image    width
+@ih:@wh - 100px;  // #image    height usuallty - 200
+@tw:@ww -  45px;  // thumbnail width #slidearea
+
+
+#slideshow {list-style:none; color:#fff}
+#slideshow span {display:none}
+#wrapper {width:@ww; height:@wh; margin:50px auto; display:none}
+#wrapper * {margin:0; padding:0}
+#fullsize {position:relative; left:0; top:22px; width:@fw; height:@fh; padding:20px 2px 2px 2px; border:1px solid #ccc; background:#000} /* height:300px;*/
+#information {position:absolute; bottom:0; width:@ww; height:0; background:#000; color:#fff; overflow:hidden; z-index:200; opacity:.7; filter:alpha(opacity=70)}
+#information h3 { text-align:center; padding:4px 8px 3px; font-size:16px; }
+#information p  { text-align:center; padding:0 16px 8px; }
+#image { width:@iw; height:@ih; }
+#image img { position:absolute; z-index:25; left:50px; width:@iw; top:40px; height:@ih; } /* width:auto */
+.imgnav {position:absolute; width:10%; height:@ih; cursor:pointer; z-index:150; }
+#imgprev {left:0;  background:url(../img/site/left.gif)  left  center no-repeat; }
+#imgnext {right:0; background:url(../img/site/right.gif) right center no-repeat; }
+#imglink {position:absolute; height:@ih; width:100%; z-index:100; opacity:.4; filter:alpha(opacity=40)}
+//.linkhover {background:url(../images/link.gif) center center no-repeat}
+#thumbnails {margin-top:30px}
+#slideleft {float:left;   width:20px; height:81px; background: #222 url(../img/site/scroll-left.gif) no-repeat center center; }
+#slideleft:hover {background-color:#333}
+#slideright {float:right; width:20px; height:81px; background:#222 url(../img/site/scroll-right.gif) center center no-repeat; }
+#slideright:hover {background-color:#333}
+#slidearea {float:left; position:relative; width:@tw; margin-left:5px; height:81px; overflow:hidden} /* width:456px; */
+#slider {position:absolute; left:0; height:81px}
+#slider img {cursor:pointer; border:1px solid #666; padding:2px}

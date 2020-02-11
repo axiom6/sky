@@ -1,0 +1,29 @@
+
+## [.black]#Sale#
+* Select SOFTPAY-FDMS (if option appears)
+* Swipe/Dip Customer's Card.
+* Key Amount of transaction.
+* Select Payment type (if option appears)
+* Press Enter.
+  ** Select Yes to confirm amount.
+  ** No to exit & restart.
+  ** Terminal will connect to host. ...
+* Select Yes to print customer receipt copy.
+  ** No to skip customer copy.
+
+## [.black]#Refund#
+* Select SOFTPAY-FDMS (if option appears)
+* Select REFUND
+* Key Amount to refund
+* Select Yes to confirm amount
+  **  No to exit & restart
+* Swipe or Key Customer’s Card
+  ** If Keying – Press Enter after keying
+  ** If Keying – Key Exp Date then Enter
+  ** Terminal will NOT connect to host
+  ** If approved – Merchant receipt will print
+* Select Yes to print customer receipt copy
+  ** No to skip customer copy
+
+
+

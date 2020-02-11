@@ -1,0 +1,13 @@
+# Directories
+**/zzz
+**/_book
+**/node_modules
+**/bower_components
+.firebase
+.idea
+codekit-config.json
+
+# OS generated files
+.DS_Store
+.DS_Store?
+

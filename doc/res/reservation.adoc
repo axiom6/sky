@@ -1,0 +1,180 @@
+
+:data-uri:
+include::../../dir/inc/DefBook.adoc[]
+
+== [.black]#Ethical Vendors#
+
+base7booking
+OpenHotel
+
+
+== [.black]#Reservation Vendors#
+
+littlehotelier::
+* http://www.littlehotelier.com/pricing/
+* $139
+* Sitemider technology
+* Great Web site feature
+* Well marketeted
+- Site response slow - now OK
+
+Web Rez Pro::
+* httl://webrezrop.com
+* $60 = $5 / room
+* Good Web site feature
+
+---- Under Evaluation -------
+
+SimpleBooking
+
+
+FrontDesk Anywhere::
+
+InnTender::
+ASI FrontDesk::
+Resort Data Processing::
+
+---- Not ready for prime time -------
+
+Hoteliga::
+  https://www.Hoteliga.com/
+  $48 Euro
+  Needs web site
+  Decent presentation
+
+RezOvation Web::
+  https://www.RezOvationWeb.com/
+  Pricing???
+  Needs web site
+  Decent presentation
+
+Base Booking::
+  https://www.base7booking.com/
+  $109
+  Needs web site
+  Decent presentation
+
+ResNexus::
+* httl://ResNexus.com
+* $60
+* Only TripAdvisor and TripConnect - otherwise good
+* Good Web site features
+* Look into further
+
+Hotello::
+  http://mingus-software.com
+  Pricing???
+  No web site
+  Good features
+  Somewhat Iffy presentation
+
+Eazy Innkeeping::
+  http://www.gracesoft.com/
+  $149 Nickel and dime. Expensive channels
+  No web site
+  Iffy presentation
+
+Clock PMS::
+  http://www.gracesoft.com/
+  $174 $274 Expensive credit card processing
+  No web site
+  Iffy presentation
+
+Fair Harbor::
+  https://fareharbor.com/
+  Pricing???
+  Has web templates
+  Good features
+  Iffy presentation
+
+Room Key PMS::
+ http://roomkeypms.com/
+ Pricing???
+ Web Site???
+ Iffy presentation
+
+Skyware::
+  http://SkywareSystems.com/
+  Pricing???
+  Web Site???
+  Iffy presentation
+
+Maestro::
+  http://SkywareSystems.com/
+  Pricing???
+  Web Site???
+  Iffy presentation
+
+Peak Pro::
+  http://PeakPro.com/
+  More of a tour operator
+  Pricing???
+  Web Site???
+  Iffy presentation
+
+Guest Point::
+  http://GuestPoint.com/
+  Pricing???
+  Web Site can be contracted out
+  Iffy presentation
+
+InnQuest::
+  https://InnQuest.com/
+  Pricing???
+  Confusing presentation
+  Potentially outdated
+
+
+---- Booking Only / Lacks Website / Too Basic ----
+
+Sirvoy::
+  link::http://sirvoy.com[Sirvoy]
+  $25-$90/month
+  Just a booking engine
+  Needs web presence - just has WordPress plugin
+
+Xola::
+  https://www.xola.com/tour
+  Just booking
+
+Inn Road::
+ link::http://info.innroad.com[InnRoad]
+ $200/month Vague pricing on startup
+ A Text book example of lame marketing
+
+---- Too Complicated ----
+
+eZee::
+* http://www.capterra.com/reservations-software/
+Kitchen sink features
+Website presence limited
+
+---------
+
+
+Front Desk::
+
+Web Rez Pro::
+In Quest::
+Room Key PMS::
+Guest Point::
+Resort Data Processing::
+Skyware::
+Maestro::
+Peak Pro::
+ResNexus::
+Hotello::
+eZee::
+Base Booking::
+Hoteliga::
+Eazy Innkeeping::
+Clock PMS::
+RezOvation Web::
+ASI FrontDesk::
+
+Software Advice::
+* link::http://www.softwareadvice.com/hotel-management/[Web]
+* link::http://www.softwareadvice.com/hotel-management/reservation-comparison/[Compare]
+* http://www.capterra.com/reservations-software/
+
+
